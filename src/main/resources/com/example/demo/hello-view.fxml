@@ -1,70 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
-<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="1128.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="BACK-COLOR" stylesheets="@../../../style.css">
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0" styleClass="BACK-COLOR" stylesheets="@../../../style.css">
          <children>
-            <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" styleClass="slide-menu" stylesheets="@../../../style.css" HBox.hgrow="ALWAYS">
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="40.0">
                <children>
-                  <FontAwesomeIconView fill="WHITE" glyphName="HOME" layoutX="14.0" layoutY="98.0" size="20" />
-                  <FontAwesomeIconView fill="WHITE" glyphName="TASKS" layoutX="14.0" layoutY="145.0" size="20" />
-                  <Label layoutX="63.0" layoutY="77.0" prefHeight="27.0" prefWidth="112.0" text="HOME" textFill="WHITE">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <FontAwesomeIconView fill="WHITE" glyphName="CALENDAR" layoutX="14.0" layoutY="186.0" size="20" />
-                  <FontAwesomeIconView fill="WHITE" glyphName="FOLDER_OPEN" layoutX="14.0" layoutY="236.0" size="20" />
-                  <FontAwesomeIconView fill="WHITE" glyphName="COG" layoutX="14.0" layoutY="283.0" size="20" />
-                  <FontAwesomeIconView fill="WHITE" glyphName="SIGN_OUT" layoutX="14.0" layoutY="324.0" size="20" />
-                  <Label layoutX="63.0" layoutY="124.0" prefHeight="27.0" prefWidth="112.0" text="Tasks" textFill="WHITE">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="63.0" layoutY="170.0" prefHeight="27.0" prefWidth="112.0" text="Calendar" textFill="WHITE">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="63.0" layoutY="215.0" prefHeight="27.0" prefWidth="112.0" text="Projects" textFill="WHITE">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="63.0" layoutY="262.0" prefHeight="27.0" prefWidth="112.0" text="Settings" textFill="WHITE">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="63.0" layoutY="305.0" prefHeight="27.0" prefWidth="112.0" text="Logout" textFill="WHITE">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-               </children></AnchorPane>
-            <BorderPane maxWidth="1.7976931348623157E308" prefHeight="587.0" prefWidth="960.0" HBox.hgrow="ALWAYS">
-               <top>
-                  <AnchorPane maxWidth="1.7976931348623157E308" prefHeight="59.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-                     <BorderPane.margin>
-                        <Insets top="5.0" />
-                     </BorderPane.margin>
-                     <styleClass>
-                        <String fx:value="BACK-COLOR-BAR" />
-                        <String fx:value="border-red" />
-                     </styleClass>
+                  <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" styleClass="slide-menu" stylesheets="@../../../style.css">
+                     <children>
+                        <FontAwesomeIconView fill="WHITE" glyphName="HOME" layoutX="14.0" layoutY="98.0" size="20" AnchorPane.bottomAnchor="486.34285659790044" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="151.0285717010498" AnchorPane.topAnchor="80.80000000000007" />
+                        <FontAwesomeIconView fill="WHITE" glyphName="TASKS" layoutX="14.0" layoutY="145.0" size="20" />
+                        <Label layoutX="63.0" layoutY="77.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="112.0" text="HOME" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <FontAwesomeIconView fill="WHITE" glyphName="CALENDAR" layoutX="14.0" layoutY="186.0" size="20" />
+                        <FontAwesomeIconView fill="WHITE" glyphName="FOLDER_OPEN" layoutX="14.0" layoutY="236.0" size="20" />
+                        <FontAwesomeIconView fill="WHITE" glyphName="COG" layoutX="14.0" layoutY="283.0" size="20" />
+                        <FontAwesomeIconView fill="WHITE" glyphName="SIGN_OUT" layoutX="14.0" layoutY="324.0" size="20" />
+                        <Label layoutX="63.0" layoutY="124.0" prefHeight="27.0" prefWidth="112.0" text="Tasks" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="170.0" prefHeight="27.0" prefWidth="112.0" text="Calendar" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="215.0" prefHeight="27.0" prefWidth="112.0" text="Projects" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="262.0" prefHeight="27.0" prefWidth="112.0" text="Settings" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="305.0" prefHeight="27.0" prefWidth="112.0" text="Logout" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="32.0" layoutY="21.0" text="Dashbord" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
                   </AnchorPane>
+               </children>
+            </VBox>
+            <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="BACK-COLOR" HBox.hgrow="ALWAYS">
+               <top>
+                  <HBox prefHeight="68.0" prefWidth="935.0" BorderPane.alignment="CENTER" />
                </top>
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
             </BorderPane>
          </children>
       </HBox>

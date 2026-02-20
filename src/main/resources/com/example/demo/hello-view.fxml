@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="1128.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="BACK-COLOR" stylesheets="@../../../style.css">
+         <children>
+            <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" styleClass="slide-menu" stylesheets="@../../../style.css" HBox.hgrow="ALWAYS">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="HOME" layoutX="20.0" layoutY="64.0" size="20" />
+                  <FontAwesomeIconView fill="WHITE" glyphName="TASKS" layoutX="20.0" layoutY="111.0" size="20" />
+                  <Label layoutX="69.0" layoutY="43.0" prefHeight="27.0" prefWidth="112.0" text="DASHBORD" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="WHITE" glyphName="CALENDAR" layoutX="20.0" layoutY="152.0" size="20" />
+                  <FontAwesomeIconView fill="WHITE" glyphName="LOGOUT" layoutX="20.0" layoutY="202.0" size="20" />
+                  <FontAwesomeIconView fill="WHITE" glyphName="" layoutX="20.0" layoutY="249.0" size="20" />
+                  <FontAwesomeIconView fill="WHITE" glyphName="HOME" layoutX="20.0" layoutY="290.0" size="20" />
+               </children></AnchorPane>
+            <BorderPane maxWidth="1.7976931348623157E308" prefHeight="587.0" prefWidth="960.0" HBox.hgrow="ALWAYS">
+               <top>
+                  <AnchorPane maxWidth="1.7976931348623157E308" prefHeight="59.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets top="5.0" />
+                     </BorderPane.margin>
+                     <styleClass>
+                        <String fx:value="BACK-COLOR-BAR" />
+                        <String fx:value="border-red" />
+                     </styleClass>
+                  </AnchorPane>
+               </top>
+            </BorderPane>
+         </children>
+      </HBox>
+   </children>
+</StackPane>

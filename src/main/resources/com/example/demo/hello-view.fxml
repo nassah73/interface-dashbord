@@ -17,7 +17,7 @@
          <children>
             <VBox prefHeight="200.0" prefWidth="100.0" spacing="40.0">
                <children>
-                  <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" styleClass="slide-menu" stylesheets="@../../../style.css">
+                  <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" styleClass="slide-menu" stylesheets="@../../../style.css" VBox.vgrow="ALWAYS">
                      <children>
                         <FontAwesomeIconView fill="WHITE" glyphName="HOME" layoutX="14.0" layoutY="98.0" size="20" AnchorPane.bottomAnchor="486.34285659790044" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="151.0285717010498" AnchorPane.topAnchor="80.80000000000007" />
                         <FontAwesomeIconView fill="WHITE" glyphName="TASKS" layoutX="14.0" layoutY="145.0" size="20" />
@@ -108,7 +108,7 @@
                            </BorderPane.margin>
                            <children>
                               <Label text="LES CARDES" textFill="WHITE" />
-                              <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0">
+                              <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
                                  <children>
                                     <AnchorPane prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
                                        <FlowPane.margin>
@@ -118,6 +118,16 @@
                                     <AnchorPane layoutX="20.0" layoutY="20.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
                                        <FlowPane.margin>
                                           <Insets left="20.0" top="10.0" />
+                                       </FlowPane.margin>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="20.0" layoutY="20.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
+                                       <FlowPane.margin>
+                                          <Insets top="10.0" />
+                                       </FlowPane.margin>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="228.0" layoutY="20.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
+                                       <FlowPane.margin>
+                                          <Insets top="10.0" />
                                        </FlowPane.margin>
                                     </AnchorPane>
                                  </children>

@@ -64,7 +64,7 @@
                   </AnchorPane>
                </children>
             </VBox>
-            <BorderPane prefHeight="587.0" prefWidth="925.0">
+            <BorderPane prefHeight="587.0" prefWidth="925.0" HBox.hgrow="ALWAYS">
                <top>
                   <HBox prefHeight="70.0" prefWidth="923.0" styleClass="main-content" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
                      <BorderPane.margin>
@@ -90,7 +90,7 @@
                      <top>
                         <HBox prefHeight="100.0" prefWidth="200.0" styleClass="main-content" BorderPane.alignment="CENTER">
                            <children>
-                              <Label text="Dashbord" textFill="#177bfc">
+                              <Label maxWidth="1.7976931348623157E308" text="Dashbord" textFill="#177bfc">
                                  <font>
                                     <Font size="43.0" />
                                  </font>
@@ -108,29 +108,32 @@
                            </BorderPane.margin>
                            <children>
                               <Label text="LES CARDES" textFill="WHITE" />
-                              <FlowPane hgap="20.0" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                              <FlowPane hgap="20.0" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
                                  <children>
-                                    <AnchorPane prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
+                                    <AnchorPane maxWidth="1.7976931348623157E308" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
                                        <FlowPane.margin>
                                           <Insets left="10.0" top="10.0" />
                                        </FlowPane.margin>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="20.0" layoutY="20.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
+                                    <AnchorPane layoutX="20.0" layoutY="20.0" maxWidth="1.7976931348623157E308" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
                                        <FlowPane.margin>
-                                          <Insets left="20.0" top="10.0" />
+                                          <Insets left="20.0" right="10.0" top="10.0" />
                                        </FlowPane.margin>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="20.0" layoutY="20.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
+                                    <AnchorPane layoutX="20.0" layoutY="20.0" maxWidth="1.7976931348623157E308" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
                                        <FlowPane.margin>
-                                          <Insets top="10.0" />
+                                          <Insets right="10.0" top="10.0" />
                                        </FlowPane.margin>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="228.0" layoutY="20.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
+                                    <AnchorPane layoutX="228.0" layoutY="20.0" maxWidth="1.7976931348623157E308" prefHeight="138.0" prefWidth="168.0" style="-fx-background-radius: 6PX; -fx-background-color: #177bfc;">
                                        <FlowPane.margin>
                                           <Insets top="10.0" />
                                        </FlowPane.margin>
                                     </AnchorPane>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
                               </FlowPane>
                            </children>
                         </VBox>

@@ -123,29 +123,35 @@
                                  <children>
                                     <AnchorPane prefHeight="138.0" prefWidth="168.0" style="-fx-background-color: #177bfc;" styleClass="main-content">
                                        <GridPane.margin>
-                                          <Insets left="5.0" />
+                                          <Insets left="5.0" top="5.0" />
                                        </GridPane.margin>
                                        <children>
-                                          <FontAwesomeIconView layoutX="86.0" layoutY="37.0" size="24" wrappingWidth="10.900006294250488" />
+                                          <FontAwesomeIconView glyphName="USER_CIRCLE" layoutX="86.0" layoutY="37.0" size="24" wrappingWidth="10.900006294250488" />
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-color: #177bfc;" styleClass="main-content" GridPane.columnIndex="3">
+                                    <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="115.0" prefWidth="174.0" style="-fx-background-color: #177bfc;" styleClass="main-content" GridPane.columnIndex="3">
                                        <GridPane.margin>
-                                          <Insets right="5.0" />
+                                          <Insets right="5.0" top="5.0" />
                                        </GridPane.margin>
                                        <children>
-                                          <FontAwesomeIconView layoutX="86.0" layoutY="37.0" size="24" />
+                                          <FontAwesomeIconView glyphName="CALENDAR_ALT" layoutX="86.0" layoutY="37.0" size="24" />
                                        </children>
                                     </AnchorPane>
                                     <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-color: #177bfc;" styleClass="main-content" GridPane.columnIndex="2">
                                        <children>
-                                          <FontAwesomeIconView layoutX="86.0" layoutY="37.0" size="24" />
+                                          <FontAwesomeIconView glyphName="SHARE_ALT" layoutX="86.0" layoutY="37.0" size="24" />
                                        </children>
+                                       <GridPane.margin>
+                                          <Insets top="5.0" />
+                                       </GridPane.margin>
                                     </AnchorPane>
                                     <AnchorPane layoutX="248.0" layoutY="10.0" prefHeight="138.0" prefWidth="168.0" style="-fx-background-color: #177bfc;" styleClass="main-content" GridPane.columnIndex="1">
                                        <children>
-                                          <FontAwesomeIconView layoutX="86.0" layoutY="37.0" size="24" />
+                                          <FontAwesomeIconView glyphName="BULLSEYE" layoutX="86.0" layoutY="37.0" size="24" />
                                        </children>
+                                       <GridPane.margin>
+                                          <Insets top="5.0" />
+                                       </GridPane.margin>
                                     </AnchorPane>
                                  </children>
                               </GridPane>

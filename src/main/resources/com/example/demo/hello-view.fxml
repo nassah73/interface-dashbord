@@ -66,7 +66,7 @@
                   </AnchorPane>
                </children>
             </VBox>
-            <BorderPane prefHeight="587.0" prefWidth="925.0" HBox.hgrow="ALWAYS">
+            <BorderPane prefHeight="587.0" prefWidth="925.0" styleClass="BACK-COLOR" HBox.hgrow="ALWAYS">
                <top>
                   <HBox prefHeight="70.0" prefWidth="923.0" styleClass="main-content" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
                      <BorderPane.margin>
@@ -126,7 +126,8 @@
                                           <Insets left="5.0" top="5.0" />
                                        </GridPane.margin>
                                        <children>
-                                          <FontAwesomeIconView glyphName="USER_CIRCLE" layoutX="86.0" layoutY="37.0" size="24" wrappingWidth="10.900006294250488" />
+                                          <FontAwesomeIconView glyphName="USER_CIRCLE" layoutX="72.0" layoutY="45.0" size="24" wrappingWidth="10.900006294250488" />
+                                          <Label layoutX="72.0" layoutY="49.0" prefHeight="27.0" prefWidth="65.0" text="users" textFill="#faf8f8" />
                                        </children>
                                     </AnchorPane>
                                     <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="115.0" prefWidth="174.0" style="-fx-background-color: #177bfc;" styleClass="main-content" GridPane.columnIndex="3">
